@@ -1,0 +1,14 @@
+q1 anterior
+def raiz (a, b, c)
+delta = b * b - 4 * a * c
+raiz_1 = -b + raiz(delta) / 2 * a
+raiz_2 = -b - raiz(delta) / 2 * a 
+print("Raiz1:",raiz_1,"Raiz2: ",raiz_2)
+
+def main ()
+a = int(input("Coeficiente A: "))
+b = int(input("Coeficiente B: "))
+c = int(input("Coeficiente C: "))
+raiz(a,b,c)
+
+main()
